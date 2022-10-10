@@ -95,19 +95,17 @@
                     <div class="wrapper">
                         <ul class="icons-flex">
                             <li>
-                                <img src="" alt="Paw print icon">
-                                    <h4>Animal Spotlight</h4>
-                                </img>
+                                <img src="./animal-land-assets/paw.svg" alt="Paw print icon">
+                                <div class="icons-text-flex"><h4>Animal Spotlight</h4></div>
+                                
                             </li>
                             <li>
-                                <img src="" alt="Calendar Icon">
-                                    <h4>Events</h4>
-                                </img>
+                                <img src="./animal-land-assets/calendar-check.svg" alt="Calendar Icon">
+                                <div class="icons-text-flex"><h4>Events</h4></div>
                             </li>
                             <li>
-                                <img src="" alt="Shopping Bag Icon">
-                                    <h4>Merch</h4>
-                                </img>
+                                <img src="./animal-land-assets/shopping-bag.svg" alt="Shopping Bag Icon">
+                                <div class="icons-text-flex"><h4>Merch</h4></div>
                             </li>
                         </ul>
                     </div><!-- End of wrapper -->
@@ -116,26 +114,29 @@
     
     <!-- Blog -->
         <section class="blog" id="blog">
-            <div class="blog-flex">
-                <div class="wrapper">
-                    <div class="blog-text-container-1">
-                    <h5>Fascinating Facts About Zebras</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero est ipsum non, tempora asperiores, beatae, expedita fugiat tenetur nulla laudantium voluptate corporis. Consequuntur, voluptatibus illum rem ea animi fugiat. Est sequi aliquid rerum optio molestiae possimus aut accusantium animi recusandae.</p>
-                    <button>Read More</button>
+                <div class="blog-flex">
+                    <div class="blog-text-container-1 wrapper double-wrap">
+                        <h5>Fascinating Facts About Zebras</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero est ipsum non, tempora asperiores, beatae, expedita fugiat tenetur nulla laudantium voluptate corporis. Consequuntur, voluptatibus illum rem ea animi fugiat. Est sequi aliquid rerum optio molestiae possimus aut accusantium animi recusandae.</p>
+                        <a href="https://www.animalrefugewebsiteeeee.com/zebrafacts/"><button>Read More</button></a>
                     </div><!-- End of blog-text-container-1 -->
-                    <div class="blog-text-container-2">
-                    <h3>The Bond Between Animals And Humans</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero est ipsum non, tempora asperiores, beatae, expedita fugiat tenetur nulla laudantium voluptate corporis. Consequuntur, voluptatibus illum rem ea animi fugiat. Est sequi aliquid rerum optio molestiae possimus aut accusantium animi recusandae.</p>
-                    <button>Read More</button>
+
+                    <div class="blog-image-container-1">
+                        <img src="./animal-land-assets/image-7.jpg" alt="Two zebras stand next to one another">
+                    </div><!-- End of blog-image-container-1 -->
+
+                    <div class="blog-image-container-2">
+                        <img src="./animal-land-assets/image-2.jpg" alt="A cat gives a person a high five">
+                    </div><!-- End of blog-image-container-2 -->
+
+                    <div class="blog-text-container-2 wrapper double-wrap">
+                        <h5>The Bond Between Animals And Humans</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero est ipsum non, tempora asperiores, beatae, expedita fugiat tenetur nulla laudantium voluptate corporis. Consequuntur, voluptatibus illum rem ea animi fugiat. Est sequi aliquid rerum optio molestiae possimus aut accusantium animi recusandae.</p>
+                        <a href="https://www.animalrefugewebsiteeeee.com/bondbetween/"><button>Read More</button></a>
                     </div><!-- End of blog-text-container-2 -->
-                </div><!-- End of wrapper-->
-                <div class="blog-image-container-1">
-                    <img src="./animal-land-assets/image-7.jpg" alt="Two zebras stand next to one another">
-                </div><!-- End of img-text-container-1 -->
-                 <div class="blog-image-container-2">
-                    <img src="./animal-land-assets/image-2.jpg" alt="A cat gives a person a high five">
-                </div><!-- End of img-text-container-2 -->
-            </div><!-- End of blog-flex -->
+                </div><!-- End of blog-flex -->
+            
+
         </section><!-- End of Blog -->
     </main><!-- End of Main -->
 
@@ -155,22 +156,26 @@
             </nav>
 
             <!-- Newsletter Subscription Form -->
-            <form action="subscribe">
-                <h6>Stay Updated</h6>
-                <fieldset>
-                    <legend>Subscribe to our newsletter to stay updated.</legend>
-                    <label for="email" class="sr-only">Email Address</label>
-                    <input type="email" name="email" placeholder="email address">
-                    <label for="subscribe" class="sr-only">Subscribe</label>
-                    <button type="submit" name="subscribe">Subscribe</button>
-                </fieldset>
-            </form>
+            <div class="newsletter">
+                <form action="subscribe">
+                    <h6>Stay Updated</h6>
+                    <fieldset>
+                        <legend>Subscribe to our newsletter to stay updated.</legend>
+                        <label for="email" class="sr-only">Email Address</label>
+                        <input type="email" name="email" placeholder="email address">
+                        <label for="subscribe" class="sr-only">Subscribe</label>
+                        <button type="submit" name="subscribe">Subscribe</button>
+                    </fieldset>
+                </form>
+            </div>
 
             <!-- Contact Info -->
-            <h6>Contact</h6>
-            <address>info@gmail.com | 123 - 456 - 7890</address>
-            <address>123 some road, Toronto, ON</address>
-            <address>A5A 5A5, Canada</address>
+            <div class="contact">
+                <h6>Contact</h6>
+                <address>info@gmail.com | 123 - 456 - 7890</address>
+                <address>123 some road, Toronto, ON</address>
+                <address>A5A 5A5, Canada</address>
+            </div><!-- End of contact -->
         </div><!-- End of footer-flex -->
 
         <!-- Bottom Bar -->

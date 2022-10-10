@@ -52,7 +52,7 @@ a {
     text-transform: uppercase;
 }
 
-p {
+p, legend, address {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -164,15 +164,163 @@ h2 {
     background-color: #C3D3CB;
 }
 
+h3 {
+    text-align: center;
+    font-size: 2.45rem;
+    color:#152D20;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+
 /* Gallery */
 .gallery-flex {
     display: flex;
+    justify-content: space-around;
+    padding-bottom: 7%;
+    
 }
+
+.gallery-flex li {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    
+}
+
 
 /* Icons Section */
 
+.icons-flex {
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.icons-flex li {
+    display: flex;
+    width: 7%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-text-flex {
+    margin-top: -15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30%;
+}
+
+h4 {
+    display: flex;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.icons-flex li:nth-child(2) img {
+    width: 80%;
+}
+
+.icons-flex li:nth-child(2) h4 {
+    padding-top: 20%;
+}
+
 
 /* Blog */
+.blog {
+    background-color: #FCFCFC;
+}
+
+.blog-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.blog-text-container-1, .blog-text-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #152D20;
+}
+
+.blog-image-container-1, .blog-image-container-2 {
+    display: flex;
+    width: 50%
+}
+
+h5 {
+    font-size: 1.75rem;
+    padding-bottom: 3%;
+}
+
+.blog-text-container-1 p, .blog-text-container-2 p {
+    padding-bottom: 10%;
+}
+
+.blog-text-container-1 button, .blog-text-container-2 button {
+    background-color: #152D20;
+    color: #FCFCFC;
+}
+
+.double-wrap {
+    width: 45%;
+}
 
 
 /* Footer */
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-navbar-flex li {
+    padding-bottom: 5%;
+}
+
+h6 {
+    font-size: 1.2rem;
+    padding-bottom: 3%;
+}
+
+.newsletter {
+    /* text-align: center; */
+}
+
+fieldset {
+    border: none;
+    width: 150%;
+    padding: 0;
+    margin: 0;
+}
+
+fieldset button {
+    background-color: #000;
+    color: #FCFCFC;
+}
+
+legend {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+label {
+
+}
+
+input {
+    width: 90%;
+}
+
+.contact {
+    text-align: right;
+}
