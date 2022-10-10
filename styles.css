@@ -19,6 +19,10 @@ body {
     margin: 0;
 }
 
+img {
+    width: 100%;
+}
+
 header {
     background-image: url("./animal-land-assets/image-1.jpg");
     height: 100vh;
@@ -30,10 +34,14 @@ header {
 h1, h2, h3, h5 {
     font-family: 'Fredericka the Great', cursive;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
 
 h4, h6 {
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -74,6 +82,7 @@ button {
     margin: 0 auto;
 }
 
+
 /* HEADER SECTION */
 .header-flex {
     display: flex;
@@ -86,20 +95,79 @@ button {
 }
 
 .header-navbar-flex li {
-    padding-right: 5%;
+    padding-right: 20%;
 }
 
+h1 {
+    font-size: 8rem;
+    line-height: 8rem;
+    padding-top: 7%;
+    text-align: right;
+}
+
+/* What is the proper way to resize the icons here? */
+.social-media-navbar-flex {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: flex-end;
+    padding-top: 50%;
+    padding-left: 7%;
+    margin-left: 0%;
+    margin-right: -15%;
+    padding-bottom: 7%;
+}
+
+.social-media-navbar-flex a img {
+    padding-bottom: 14px;
+    width: 20%
+}
+
+/* Is there a way that this could be aligned properly in the center? */
+.social-media-navbar-flex li:nth-child(2) img {
+    width: 16%;
+    padding-left: 6.5px;
+}
 
 
 /* ABOUT SECTION */
 /* Suzies Story */
+.about-flex {
+    display: flex;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.img-container {
+    width: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    justify-content: space-between;
+}
+
+.text-container p {
+    /* padding-top: 1%; */
+    padding-bottom: 3%;
+}
+
+h2 {
+    font-size: 2.55rem;
+}
 
 
 /* Some of our Friends */
-
+.gallery {
+    background-color: #C3D3CB;
+}
 
 /* Gallery */
-
+.gallery-flex {
+    display: flex;
+}
 
 /* Icons Section */
 
