@@ -52,6 +52,10 @@ a {
     text-transform: uppercase;
 }
 
+a:hover, a:focus {
+    color: #C3D3CB;
+}
+
 p, legend, address {
     margin: 0;
     padding: 0;
@@ -73,6 +77,11 @@ button {
     padding: 10px 25px;
     border: none;
     background-color: #FCFCFC;
+}
+
+button:hover, button:focus {
+    background-color: #C3D3CB;
+    color: #000;
 }
 
 
@@ -270,6 +279,13 @@ h5 {
     color: #FCFCFC;
 }
 
+.blog-text-container-1 button:hover, .blog-text-container-2 button:hover {
+    color: #152D20;
+    background-color: #C3D3CB;
+}
+
+
+
 .double-wrap {
     width: 45%;
 }
@@ -296,11 +312,34 @@ h6 {
     /* text-align: center; */
 }
 
+
 fieldset {
     border: none;
     width: 150%;
     padding: 0;
     margin: 0;
+    text-align: center;
+}
+
+legend {
+    display: inline;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+label {
+    display: inline-block;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+input:hover, input:focus {
+  background-color: #C3D3CB;
 }
 
 fieldset button {
@@ -308,19 +347,19 @@ fieldset button {
     color: #FCFCFC;
 }
 
-legend {
-    text-align: center;
-    padding-bottom: 2%;
-}
-
-label {
-
-}
-
-input {
-    width: 90%;
-}
-
 .contact {
     text-align: right;
+}
+
+address {
+    font-style: normal;
+    padding-top: 1.5%;
+}
+
+.bottombar {
+    background-color: #000;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: .9rem;
 }
